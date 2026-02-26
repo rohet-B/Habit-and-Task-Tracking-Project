@@ -37,10 +37,14 @@ const HomePage = () => {
                 <div>{timeString}, Rohit</div> 
                 <div className='text-slate-400'>{dateString}</div>
             </div>
-            <div >
-                <button className='cursor-pointer text-4xl text-amber-200'>
-                    <i class="fa-solid fa-circle-user"></i>
-                </button>
+            <div>
+                <div className='dropdown dropdown-bottom dropdown-left cursor-pointer text-4xl'>
+                    <div tabIndex={0} role="button" class="fa-solid fa-circle-user"></div>
+                     <ul tabIndex="-1" className="dropdown-content menu bg-slate-900 rounded-box z-1 w-52 p-2 shadow-sm">
+                        <li className='text-slate-50 font-bold'><a>Item 1</a></li>
+                        <li className='text-slate-50 font-bold'><a>Item 2</a></li>
+                    </ul>
+                </div>
             </div>
         </div>
     </>

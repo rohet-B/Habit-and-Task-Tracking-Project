@@ -6,7 +6,9 @@ import CarouselDate from './components/CarouselDate'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <HomePage/>
-    <CarouselDate/>
+    <div className="min-h-screen bg-slate-950">
+      <HomePage/>
+      <CarouselDate/>
+    </div>
   </StrictMode>,
 )
