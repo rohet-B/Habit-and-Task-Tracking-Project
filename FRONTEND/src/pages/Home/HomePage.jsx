@@ -1,5 +1,4 @@
 import React, { useEffect, useState } from 'react'
-import CarouselDate from '../../components/CarouselDate';
 
 const HomePage = () => {
         // const currentDate = new Date();
@@ -44,7 +43,6 @@ const HomePage = () => {
                 </button>
             </div>
         </div>
-        <CarouselDate/>
     </>
   )
 }

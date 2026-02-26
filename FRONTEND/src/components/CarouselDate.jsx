@@ -12,7 +12,7 @@ const CarouselDate = () => {
         // Result = Last day of the previous month which is the total days
   return (
     <div className='flex items-center justify-center mt-3.5'>
-        <div className='carousel w-150 h-10 flex items-center gap-8'>
+        <div className='carousel w-150 h-10 flex items-center gap-5'>
             <button className='cursor-pointer carousel-item bg-slate-900 text-slate-50 rounded-xl h-10 min-w-7 px-2 flex justify-center items-center'>
                 {day} out of {total_days} for month {month}, {year}
             </button>   
