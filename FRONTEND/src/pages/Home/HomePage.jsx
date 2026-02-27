@@ -21,6 +21,9 @@ const HomePage = () => {
         if (today.getHours()<12){
             setTimestring("Good Morning");
         }
+        else if(today.getHours()>12 && today.getHours()<18){
+            setTimestring("Good Afternoon");
+        }
         else{
             setTimestring("Good Evening");
         }
